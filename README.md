@@ -72,3 +72,21 @@ C:\Users\James\AppData\Roaming\npm\npm -> C:\Users\James\AppData\Roaming\npm\nod
 + npm@5.3.0
 updated 1 package in 25.406s
 ```
+
+#### 4. Installing create-react-app
+
+There is a boilerplate already written for react - it is called _create-react-app_. It is available, like many other scripts, on the _node package manager (npm)_. We can install it using the `npm i` command again. Run the following code in your terminal:
+
+```bash
+npm i -g create-react-app
+```
+
+This can also take a few moments - `npm` is having to install React and other tools on your computer. Once complete, you'll see output similar to this:
+
+```bash
+$ npm install create-react-app -g
+C:\Users\James\AppData\Roaming\npm\create-react-app -> C:\Users\James\AppData\Roaming\npm\node_modules\create-react-app\index.js
++ create-react-app@1.3.3
+updated 1 package in 41.553s
+```
+
