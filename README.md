@@ -233,6 +233,25 @@ Once they are installed, you will have a new _tab_ under DevTools to the far rig
 
 ![devtoolsreact.PNG](devtoolsreact.PNG)
 
+> If you ever need to stop your server, press `control + c` at the same time. This will stop _any_ terminal process.
+
 ---
 
 ### 8. Releasing your React application to the public
+
+Once you are satisfied with your application, it is time to bundle your code together ready for the web. `create-react-app` will bundle your code, remove whitespace, obfuscate it so it is harder for others to read, and make it take up less space. Press `control + c` at the same time to exit your React server if you have not already. Once you have done that, you will see that you can enter more commands in your terminal. Run the following:
+
+```bash
+npm run build
+```
+
+This process can take a few moments. Once it is complete, the _entire_ contents of your website will be available in the **build** subdirectory of your project. It will contain the following files and folders:
+
+```bash
+asset-manifest.json  favicon.ico  index.html  manifest.json  service-worker.js  static/
+```
+
+All of these files and folders can then be uploaded to a website for production or be distributed to clients for a final release.
+
+
+*fin*
