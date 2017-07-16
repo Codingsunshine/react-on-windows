@@ -53,4 +53,22 @@ $ npm -v
 3.6.8
 ```
 
+#### 3. Upgrading npm
 
+We want to make sure that the _node package manager_ (npm) is up to date. Run the following terminal command:
+
+```bash
+npm i -g npm@latest
+```
+
+In english, we are telling the computer the following: _node package manager: (i)nstall (-g)lobally on my computer [so it can be used anywhere] the latest version of npm [yourself].
+
+This could take a few moments to run. Once it is complete, you'll see output similar to the following (but it may not match exactly.. each computer is different):
+
+```
+npm i -g npm@latest
+C:\Users\James\AppData\Roaming\npm\npx -> C:\Users\James\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js
+C:\Users\James\AppData\Roaming\npm\npm -> C:\Users\James\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
++ npm@5.3.0
+updated 1 package in 25.406s
+```
