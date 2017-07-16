@@ -17,7 +17,7 @@ Guide to installing the tools required to run React+Webpack (via create-react-ap
 
 ---
 
-#### 1. Installing Node.js
+### 1. Installing Node.js
 
 > Please install Node v6.11.10. [Here is a direct link to the installer](https://nodejs.org/en/download/). It is labelled under **LTS** and _not_ **Current Release**.
 
@@ -25,7 +25,7 @@ First, you'll need to download and install the Node.js client. You should also [
 
 ---
 
-#### 2. Running the Node.js Command Prompt
+### 2. Running the Node.js Command Prompt
 
 Once you've installed both, open the **Git Bash** application that was installed. We recommend adding this to your task bar. Now, let's verify everything installed correctly. Don't worry about the `$` at the start of each line; that is just letting you know you that the command line is able to accept input. Here is what your bash terminal will look like when you complete this step:
 
@@ -59,7 +59,7 @@ $ npm -v
 
 ---
 
-#### 3. Upgrading npm
+### 3. Upgrading npm
 
 We want to make sure that the _node package manager_ (npm) is up to date. Run the following terminal command:
 
@@ -81,7 +81,7 @@ updated 1 package in 25.406s
 
 ---
 
-#### 4. Installing create-react-app
+### 4. Installing create-react-app
 
 There is a boilerplate already written for react - it is called _create-react-app_. It is available, like many other scripts, on the _node package manager (npm)_. We can install it using the `npm i` command again. Run the following code in your terminal:
 
@@ -100,7 +100,7 @@ updated 1 package in 41.553s
 
 ---
 
-## 5. Creating a basic React application
+### 5. Creating a basic React application
 
 > You're over halfway there! Keep it up!
 
@@ -167,7 +167,7 @@ We suggest that you begin by typing:
 
 ---
 
-#### 6. Starting your React application
+### 6. Starting your React application
 
 _create-react-app_ includes a web server to test your app on. You'll need to _change directory_ (cd) into your applicaton to run it. Do this:
 
@@ -221,5 +221,11 @@ You should see the React starter page.
 
 ![react.PNG](react.PNG)
 
-#### 7. Editing your React application
-#### 8. Releasing your React application to the public
+---
+
+### 7. Editing your React application
+
+
+---
+
+### 8. Releasing your React application to the public
