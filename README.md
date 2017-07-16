@@ -25,7 +25,7 @@ First, you'll need to download and install the Node.js client. You should also [
 
 Once you've installed both, open the **Git Bash** application that was installed. We recommend adding this to your task bar. Now, let's verify everything installed correctly. Don't worry about the `$` at the start of each line; that is just letting you know you that the command line is able to accept input. Here is what your bash terminal will look like when you complete this step:
 
-![bash.png](bash.png)
+![bash.PNG](bash.PNG)
 
 In your terminal, type in:
 
