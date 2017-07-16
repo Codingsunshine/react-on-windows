@@ -34,6 +34,7 @@ node -v
 You should see output similar to:
 
 ```bash
+$ node -v
 v.6.11.1
 ```
 
@@ -46,6 +47,7 @@ npm -v
 This verifies that the _node package manager_ (npm) has been installed. You should see output similar to:
 
 ```bash
+$ npm -v
 3.6.8
 ```
 
