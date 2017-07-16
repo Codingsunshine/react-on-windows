@@ -90,3 +90,37 @@ C:\Users\James\AppData\Roaming\npm\create-react-app -> C:\Users\James\AppData\Ro
 updated 1 package in 41.553s
 ```
 
+## 5. Creating a basic React application
+
+> You're over halfway there! Keep it up!
+
+It is time for you to finally create a React application from the `create-react-app` boilerplate. When you use `create-react-app`, you should specfiy a name for your application. It will create the following file structure for you in a folder with the name of your app. That structure looks like this:
+
+```bash
+├── README.md
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    └── logo.svg
+```
+
+The `index.html` has all of the App.js code _injected_ into it using the tools that `create-react-app` provides. It even creates start Javascript and CSS files for you. **This should make you feel awesome!**
+
+Time for you to try it out. Run:
+
+```bash
+create-react-app hi-react
+```
+
+This creates a folder wherever you are called `hi-react`. _create-react-app_ tells you where this is installed so you can easily find it to open in your text editor. Once complete, you should see the following (or similar):
+
+```bash
+
+```
