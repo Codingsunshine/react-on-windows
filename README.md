@@ -12,7 +12,7 @@ Guide to installing the tools required to run React+Webpack (via create-react-ap
 4. Installing **create-react-app**
 5. Creating a basic React application
 6. Starting your React application
-7. Editing your React application
+7. Editing your React application 
 8. Releasing your React application to the public
 
 ---
@@ -225,6 +225,13 @@ You should see the React starter page.
 
 ### 7. Editing your React application
 
+You'll notice that you're encouraged to edit the `src/App.js` file. This is where you can shine! For now, just edit the text in front of you and hit save in your editor of choice. Refresh your application in the browser and you'll see your changes are updated.  
+
+You should also take a moment to install the [React Developer Tools Extension for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). 
+
+Once they are installed, you will have a new _tab_ under DevTools to the far right. If you select it, you can see React components clearly.
+
+![devtoolsreact.PNG](devtoolsreact.PNG)
 
 ---
 
