@@ -154,3 +154,60 @@ We suggest that you begin by typing:
   cd hi-react
   npm start
 ```
+
+#### 6. Starting your React application
+
+_create-react-app_ includes a web server to test your app on. You'll need to _change directory_ (cd) into your applicaton to run it. Do this:
+
+```bash
+cd hi-react
+```
+
+And then run:
+
+```bash
+pwd
+```
+
+You should see that you your `hi-react` folder:
+
+```bash
+$ pwd
+/c/Users/James/hi-react
+```
+
+Now, start your application using `npm` --
+
+```bash
+npm run start
+```
+
+You'll be informed that your application is running. It _should_ also open up a new web browser pointing to the correct (but temporary) URL.
+
+```bash
+$ npm run start
+
+> hi-react@0.1.0 start C:\Users\James\hi-react
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view hi-react in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.56.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+```
+
+You can also browse tothe _local_ address provided. In this case, you could point your browser to [http://localhost:3000/](http://localhost:3000/)
+
+You should see the React starter page.
+
+![react.PNG](react.PNG)
+
+#### 7. Editing your React application
+#### 8. Releasing your React application to the public
