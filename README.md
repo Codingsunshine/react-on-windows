@@ -15,11 +15,15 @@ Guide to installing the tools required to run React+Webpack (via create-react-ap
 7. Editing your React application
 8. Releasing your React application to the public
 
+---
+
 #### 1. Installing Node.js
 
 > Please install Node v6.11.10. [Here is a direct link to the installer](https://nodejs.org/en/download/). It is labelled under **LTS** and _not_ **Current Release**.
 
 First, you'll need to download and install the Node.js client. You should also [download the Git Bash for Windows](https://git-scm.com/download/win) client, too. This will enable you to use Node.js inside of a unix-friendly terminal environment so your linux and Mac friends can help you. 
+
+---
 
 #### 2. Running the Node.js Command Prompt
 
@@ -53,6 +57,8 @@ $ npm -v
 3.6.8
 ```
 
+---
+
 #### 3. Upgrading npm
 
 We want to make sure that the _node package manager_ (npm) is up to date. Run the following terminal command:
@@ -73,6 +79,8 @@ C:\Users\James\AppData\Roaming\npm\npm -> C:\Users\James\AppData\Roaming\npm\nod
 updated 1 package in 25.406s
 ```
 
+---
+
 #### 4. Installing create-react-app
 
 There is a boilerplate already written for react - it is called _create-react-app_. It is available, like many other scripts, on the _node package manager (npm)_. We can install it using the `npm i` command again. Run the following code in your terminal:
@@ -89,6 +97,8 @@ C:\Users\James\AppData\Roaming\npm\create-react-app -> C:\Users\James\AppData\Ro
 + create-react-app@1.3.3
 updated 1 package in 41.553s
 ```
+
+---
 
 ## 5. Creating a basic React application
 
@@ -154,6 +164,8 @@ We suggest that you begin by typing:
   cd hi-react
   npm start
 ```
+
+---
 
 #### 6. Starting your React application
 
