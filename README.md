@@ -122,5 +122,35 @@ create-react-app hi-react
 This creates a folder wherever you are called `hi-react`. _create-react-app_ tells you where this is installed so you can easily find it to open in your text editor. Once complete, you should see the following (or similar):
 
 ```bash
+$ create-react-app hi-react
+Creating a new React app in C:\Users\James\hi-react.
 
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
++ react@15.6.1
++ react-dom@15.6.1
++ react-scripts@1.0.10
+added 1205 packages in 54.568s
+
+Success! Created hi-react at C:\Users\James\hi-react
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd hi-react
+  npm start
 ```
